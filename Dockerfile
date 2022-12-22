@@ -16,11 +16,10 @@ RUN \
 
 USER $NB_UID
 
+ENV PATH="/home/sagemaker-user/.local/bin:/opt/ml/code:${PATH}"
 
 COPY requirements.txt /tmp/requriements.txt
 
 RUN pip3 install -r /tmp/requriements.txt
-
-ENV PATH="/opt/ml/code:${PATH}"
 
 WORKDIR /opt/ml/code
