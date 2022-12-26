@@ -43,3 +43,7 @@ Also present in training notebook [here](intel-project/03-train.ipynb)
 ![1672052331584](image/README/1672052331584.png)
 ![1672052345881](image/README/1672052345881.png)
 ![1672052357676](image/README/1672052357676.png)
+
+
+
+tensorboard logs [here](https://tensorboard.dev/experiment/ndALwfMySv6p7AvHWrXfBQ/#scalars)
